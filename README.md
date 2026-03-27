@@ -1,18 +1,108 @@
-AIRBNB DATA ANALYSIS
+# 🏠 Airbnb Data Analysis Dashboard
 
-ABOUT THIS PROJECT
+## 📌 Overview
 
-1. Data Collection:
-Gather data from Airbnb's public API or other available sources. Collect information on listings, hosts, reviews, pricing, and location data.
+This project analyzes Airbnb listing data to uncover insights about pricing, location trends, and property characteristics. It includes interactive dashboards built using **Streamlit** and **Power BI** for real-time data exploration.
 
-2. Data Cleaning and Preprocessing:
-Clean and preprocess the data to handle missing values, outliers, and ensure data quality. Convert data types, handle duplicates, and standardize formats.
+---
 
-3. Exploratory Data Analysis (EDA):
-Conduct exploratory data analysis to understand the distribution and patterns in the data. Explore relationships between variables and identify potential insights.
+## 🚀 Features
 
-4. Visualization:
-Create visualizations to represent key metrics and trends. Use charts, graphs, and maps to convey information effectively. Consider using tools like Matplotlib, Seaborn, or Plotly for visualizations.
+* 📊 Interactive dashboards with filters (Country, Property Type, Room Type, Price Range)
+* 📈 Data visualization using bar charts, grouped charts, and correlation matrix
+* 🔍 Price segmentation (Low, Medium, High ranges)
+* 📍 Location-based analysis (street, neighbourhood, market)
+* 📉 Correlation analysis between key features
 
-5. Geospatial Analysis:
-Utilize geospatial analysis to understand the geographical distribution of listings. Map out popular areas, analyze neighborhood characteristics, and visualize pricing variations.
+---
+
+## 🛠️ Tech Stack
+
+* **Python**
+* **Pandas**
+* **Plotly**
+* **Streamlit**
+* **Power BI**
+
+---
+
+## 📂 Project Structure
+
+```
+Airbnb-Analysis/
+│
+├── Airbnb.py              # Streamlit application
+├── Airbnb.ipynb          # Data analysis notebook
+├── Airbnb.csv            # Dataset
+├── README.md             # Project documentation
+└── images/               # Screenshots (optional)
+```
+
+
+
+
+## ⚙️ Installation & Setup
+
+### 1. Clone the repository
+
+```
+git clone https://github.com/your-username/airbnb-analysis.git
+cd airbnb-analysis
+```
+
+### 2. Create virtual environment
+
+```
+python -m venv .venv
+.venv\Scripts\activate
+```
+
+### 3. Install dependencies
+
+```
+pip install -r requirements.txt
+```
+
+### 4. Run Streamlit app
+
+```
+streamlit run Airbnb.py
+```
+
+---
+
+## 📈 Key Insights
+
+* Price increases with number of accommodates
+* Cleaning fee and bedrooms influence pricing significantly
+* Location plays a major role in listing demand
+* Strong correlations observed between beds, bedrooms, and accommodates
+
+---
+
+## 🧠 Learning Outcomes
+
+* Data cleaning and preprocessing
+* Feature engineering
+* Dashboard creation
+* Data storytelling and insights generation
+
+---
+
+## 📌 Future Improvements
+
+* Add machine learning model for price prediction
+* Deploy dashboard online
+* Improve UI/UX of Streamlit app
+
+---
+
+## 👩‍💻 Author
+
+**Sasi Rekha N M**
+
+---
+
+## ⭐ If you like this project
+
+Give it a star ⭐ on GitHub!
